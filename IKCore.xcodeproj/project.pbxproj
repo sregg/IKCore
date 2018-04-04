@@ -93,7 +93,6 @@
 		3247C50A1B1E8E0E0097F497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3247C5171B1E8F0C0097F497 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
 		3247C5181B1E8F0C0097F497 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
-		3247C5191B1E8F0C0097F497 /* Decorators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorators.h; sourceTree = "<group>"; };
 		3247C51A1B1E8F0C0097F497 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		3247C51C1B1E8F0C0097F497 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		3247C51D1B1E8F0C0097F497 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
@@ -269,7 +268,6 @@
 				3247C5511B1E8F0C0097F497 /* NSObject */,
 				3247C5581B1E8F0C0097F497 /* NSSet */,
 				3247C5701B1E8F0C0097F497 /* Vendor */,
-				3247C5191B1E8F0C0097F497 /* Decorators.h */,
 				3247C51A1B1E8F0C0097F497 /* Defines.h */,
 				3247C51E1B1E8F0C0097F497 /* MultiSort.h */,
 				3247C51F1B1E8F0C0097F497 /* MultiSort.m */,
@@ -594,6 +592,7 @@
 				TargetAttributes = {
 					3247C4EB1B1E8E0D0097F497 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = ZC2AW62E9Z;
 					};
 					3247C5041B1E8E0E0097F497 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -834,6 +833,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZC2AW62E9Z;
 				INFOPLIST_FILE = "$(SRCROOT)/IKCoreUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -845,6 +845,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZC2AW62E9Z;
 				INFOPLIST_FILE = "$(SRCROOT)/IKCoreUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
